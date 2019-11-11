@@ -2,8 +2,9 @@ import pandas as pd
 
 
 # read in the dataset #
-df= pd.read_csv('/Users/yunyunjiang/Documents/machine learning I/project/USvideos.csv',
+df= pd.read_csv('/Users/yunyunjiang/anaconda3/envs/DOOR_classification/YouTube/Data/USvideos.csv',
                        header=0)
+
 
 # check variable names #
 print(list(df.columns.values))
