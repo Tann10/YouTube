@@ -28,7 +28,7 @@ import matplotlib.pyplot as plt
 # Get the correlation matrix, where each entry is the Pearson product-moment correlation coefficient
 cm = np.corrcoef(df2.T)
 
-plt.figure(figsize=(16, 16))
+plt.figure(figsize=(25, 25))
 
 hm = sns.heatmap(cm,
                  cbar=True,
