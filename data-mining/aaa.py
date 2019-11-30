@@ -2,7 +2,7 @@ import pandas as pd
 
 
 # read in the dataset #
-df= pd.read_csv('/Users/yunyunjiang/Documents/machine learning I/project/USvideos.csv',
+df= pd.read_csv('/Users/yunyunjiang/Documents/machine learning I/project/US_videos.csv',
                        header=0)
 
 # check variable names #

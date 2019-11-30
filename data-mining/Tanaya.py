@@ -7,11 +7,7 @@ unprocessed_df = pd.read_csv("Data/US_videos.csv")
 with open("Data/US_category_id.json") as train_file:
     categories = json.load(train_file)["items"]
 
-cat_dict = {}
-for cat in categories:
-    cat_dict[int(cat["id"])] = cat["snippet"]["title"]
 
-unprocessed_df['category_name'] = unprocessed_df['category_id'].map(cat_dict)
 
 
 
